@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UX/UI Developer Take-Home Coding Challenge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body class="aligncenter">
+
+  <div class="">
+    <div class="box ">
+      <div class="headingdiv">
+        <h1 class="heading">SIGN IN</h1>
+      </div>
+      <form method="get" action="http://127.0.0.1:5500/signed-in.html">
+        <div class=" emaillabel" >Email Address</div>
+        <input type="email" name="email" autofocus="" autocapitalize="none" autocomplete="email" required=""
+          id="form_email" class="inputfeilddesign">
+        <div>
+          <br>
+        </div>
+        <div style="margin-bottom: 5px;">
+          <span class="">Password</span>
+          <span class="forgetpass">Forgot your password?</span>
+        </div>
+
+        <input type="password" name="password" autocomplete="current-password" required="" id="form_password"
+          class="inputfeilddesign">
+        <i class="far fa-eye" id="eyeicon" style="margin-left: -50px; cursor: pointer; color:#664de5; "></i>
+
+
+        <div class="mtp checkboxdiv">
+          <input type="checkbox" class="checkboxstyle "><label>Remember me </label>
+          <br>
+        </div>
+        <div class="tcenter">
+       
+          <button  name="submit" type="submit" value="Submit" class="btnstyle tcenter">CONTINUE</button>  
+        </div>
+       
+        <div class="tcenter pbottom">
+          <span class="fontsmall">Don't have an account? <u>Sign up</u></span>
+          <br>
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+  <script src="js/validator.js"></script>
+</body>
+
+</html>
